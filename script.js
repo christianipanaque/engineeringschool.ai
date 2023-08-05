@@ -3,23 +3,26 @@ document.getElementById('cta-button').addEventListener('click', function (e) {
     const email = document.getElementById('email').value;
 
     if (email) {
-        // Define your Google App Script web app URL
-        const googleAppScriptURL = 'https://script.google.com/macros/s/AKfycbyQH10NJsXDgQerb3IS2_9jebWoQY1CLnxqFCoruhNi319sWIEkzeDOBxTPiYdoYY4W/exec';
+        // Define your Google Apps Script web app URL
+        const googleAppScriptURL = 'https://script.google.com/macros/s/AKfycbyuD47EdtMPY3sXRqbINdXNMUWsHxQtjvGTbdBWAF4KpAEVZBNpeOeUYL1jqC-8PJ3k/exec';
 
-        // Create a form data
-        let formData = new FormData();
-        formData.append('email', email);
+        // Create a script element
+        var script = document.createElement('script');
 
-        // Post data to Google Apps Script
-        fetch(googleAppScriptURL, { method: 'POST', body: formData })
-            .then(response => response.text())
-            .then(data => {
-                console.log(data);
-                // You can add some user feedback here, like:
+        // Define your callback function
+        window.myCallbackFunction = function (data) {
+            console.log(data);
+            if (data.message === "Email stored successfully") {
                 alert("Your email has been successfully stored!");
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+            } else {
+                console.error('Error:', data.message);
+            }
+        };
+
+        // Prepare the URL
+        script.src = googleAppScriptURL + '?email=' + encodeURIComponent(email) + '&prefix=myCallbackFunction';
+
+        // Inject the script into the head
+        document.head.appendChild(script);
     }
 });
