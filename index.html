@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Engineering School AI</title>
+    <meta name="description" content="Simplify your engineering learning journey with AI.">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <header>
+        <nav>
+            <!-- Your navigation links can go here -->
+        </nav>
         <h1>Revolutionize Your Learning with AI</h1>
     </header>
     <main>
-        <p>Struggling with complex engineering topics? We simplify your learning journey with AI.</p>
-        <form>
-            <label for="email">Sign up for updates and exclusive insights:</label><br>
-            <input type="email" id="email" name="email" required>
-            <button type="submit" id="cta-button">Join the AI revolution now!</button>
-        </form>
+        <section>
+            <p>Struggling with complex engineering topics? We simplify your learning journey with AI.</p>
+            <form id="email-form">
+                <label for="email">Sign up for updates and exclusive insights:</label><br>
+                <input type="email" id="email" name="email" required pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <button type="submit" id="cta-button">Join the AI revolution now!</button>
+            </form>
+        </section>
     </main>
     <footer>
         <!-- Add footer content here -->
     </footer>
     <script src="script.js"></script>
 </body>
+
 </html>
