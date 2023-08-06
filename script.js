@@ -5,12 +5,12 @@ document.getElementById('email-form').addEventListener('submit', function (e) {
     const ctaButton = document.getElementById('cta-button');
 
     if (!email || !validateEmail(email)) {
-        alert('Please enter a valid email');
+        alert("Oops! Looks like there's a hiccup in the matrix. Make sure to enter a valid email address so we can connect you with the future of AI learning and engineering!");
         return;
     }
 
     // Show a loading message
-    ctaButton.textContent = 'Processing...';
+    ctaButton.textContent = "Creating your AI Learning Adventure...";
     ctaButton.disabled = true;
 
     // Define your Google Apps Script web app URL
@@ -23,7 +23,7 @@ document.getElementById('email-form').addEventListener('submit', function (e) {
     window.myCallbackFunction = function (data) {
         console.log(data);
         if (data.message === "Email stored successfully") {
-            alert("Your email has been successfully stored!");
+            alert("Success! Your email has been added to our Engineering School AI community. Get ready to revolutionize your learning journey with AI-powered insights, targeted questions, and so much more. Stay tuned, exciting content is on its way! Thanks for trusting us with your curiosity.");
         } else {
             console.error('Error:', data.message);
         }
