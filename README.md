@@ -4,7 +4,7 @@ Hello, this guide was created for the interns I met at SHPE conference, you've b
 
 Remember that you are indirectly competing with other candidates.
 
-On top of your well earned degree, these ChatGPT prompts will help you fast track and impress the Technical Hiring Managers you'll be talking to at any company.
+On top of your well earned degree, these ChatGPT prompts will help you compete, fast track your coding abilities, improve your technical knowledge and communication skills, and impress the Engineering Hiring Managers you'll be talking to.
 
 ## Prompt 1
 
