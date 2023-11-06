@@ -40,7 +40,7 @@ In [favorite fictitious repository name], generate a fictitious file in [choose 
 
 - Repeat prompt 5 until you have a minimal running application
 
-- Repeat prompt 3 untill you have `[50 | 100 | 1,000]` repositories
+- Repeat prompt 3 untill you have `[50 | 100 | 1,000]` repositories uploaded in Github
 
 ## Live Example:
 
