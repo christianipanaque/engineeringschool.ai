@@ -4,7 +4,13 @@
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/christianengineer/engineeringschool.ai)
 
-**Working on your first Pull Request?** Check out this awesome repository - [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
+**Working on your first Pull Request?** 
+
+1. Check out this awesome repository - [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
+
+2. Another quick guide here 
+    - [https://www.youtube.com/watch?v=8lGpZkjnkt4](https://www.youtube.com/watch?v=8lGpZkjnkt4)
+    - repo - [https://github.com/fireship-io/git-sticker](https://github.com/fireship-io/git-sticker)
 
 ---
 
