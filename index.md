@@ -1,4 +1,8 @@
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/christianengineer/engineeringschool.ai/blob/main/index.md)
+
 [Improvements to this document are welcomed!](https://github.com/christianengineer/engineeringschool.ai/blob/main/index.md)
+
+---
 
 **Working on your first Pull Request?** 
 
