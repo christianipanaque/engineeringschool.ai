@@ -1,37 +1,37 @@
 # Build `[10 | 50 | 100 | 1,000]` Open Source Projects
 
-(Improve this document by opening a pull request)
+---
 
-Hello, this guide was created for the interns I met at SHPE conference, you've been given this link because I saw potential in you.
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/christianengineer/engineeringschool.ai)
+
+**Working on your first Pull Request?** Check out this awesome repository - [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
+
+---
+
+Hello, 
+
+This guide was created for the interns I met at SHPE conference, you've been given this link because I saw potential in you.
 
 Remember that you are indirectly competing with other candidates.
 
-On top of your well earned degree, these ChatGPT prompts will help you compete, fast track your coding abilities, improve your technical knowledge and communication skills, and impress the Engineering Hiring Managers you'll be talking to.
+On top of your well earned degree, these ChatGPT prompts will help you compete, fast track your coding abilities, improve your technical knowledge and communication skills, and impress all the Engineering Hiring Managers you'll be talking to.
 
 ## Prompt 1
 
 ```
-You are a [type of company you're targeting] founder looking to hire
-a Senior [Front End | Back End | Full Stack] Software Engineer.
-List 50 names of open source projects you would like to see on a candidate's resume,
-and tells you the candidate is experienced in building
-large scalable [codebases | projects | applications | enterprise software].
+You are a [type of company you're targeting] founder looking to hire a Senior [Front End | Back End | Full Stack] Software Engineer. List 50 names of open source projects you would like to see on a candidate's resume, and tells you the candidate is experienced in building large scalable [codebases | projects | applications | enterprise software]
 ```
 
 ## Prompt 2
 
 ```
-List [10 | 50 | 100 | 1,000] fictitious repository names
-that will showcase experience in building large scalable and
-efficient [codebases | projects | applications | enterprise software]
-for a [type of company you're targeting] company.
+List [10 | 50 | 100 | 1,000] fictitious repository names that will showcase experience in building large scalable and efficient [codebases | projects | applications | enterprise software] for a [type of company you're targeting] company
 ```
 
 ## Prompt 3
 
 ```
-Expand on the [favorite fictitious repository name] repository.
-Description, goals and libraries used.
+Expand on the [favorite fictitious repository name] repository. Description, goals and libraries used.
 ```
 
 ## Prompt 4
@@ -43,23 +43,20 @@ Generate a scalable file structure for [favorite fictitious repository name]
 ## Prompt 5
 
 ```
-In [favorite fictitious repository name],
-generate a fictitious file in [choose a folder from the generated file structure above]
+In [favorite fictitious repository name], generate a fictitious file in [choose a folder from the generated file structure above]
 ```
 
 or
 
 ```
-Generate a fictitious file for [favorite fictitious repository name].
-This file will handle the logic for [choose a topic from the repository description above].
-Include the folder location.
+Generate a fictitious file for [favorite fictitious repository name]. This file will handle the logic for [choose a topic from the repository description above]. Include the folder location.
 ```
 
 ## Repeat
 
 - Repeat prompt 5 until you have a minimal running application
 
-- Repeat prompt 3 untill you have [10 | 50 | 100 | 1,000] repositories uploaded in Github
+- Repeat prompt 3 untill you have `[10 | 50 | 100 | 1,000]` repositories uploaded in Github
 
 ## Live Example:
 
