@@ -1,18 +1,17 @@
-# Build `[10 | 50 | 100 | 1,000]` Open Source Projects
-
----
-
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/christianengineer/engineeringschool.ai)
+[Improvements to this document are welcomed!](https://github.com/christianengineer/engineeringschool.ai/blob/main/index.md)
 
 **Working on your first Pull Request?** 
 
-1. Check out this awesome repository - [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
+1. Check out this awesome repository:
+    - [How to Contribute to an Open Source Project on GitHub](https://github.com/firstcontributions/first-contributions)
 
-2. Another quick guide here 
+2. Another quick tutorial here:
     - [https://www.youtube.com/watch?v=8lGpZkjnkt4](https://www.youtube.com/watch?v=8lGpZkjnkt4)
     - repo - [https://github.com/fireship-io/git-sticker](https://github.com/fireship-io/git-sticker)
 
 ---
+
+# Build `[10 | 50 | 100 | 1,000]` Open Source Projects
 
 Hello, 
 
